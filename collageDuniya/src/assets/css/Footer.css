@@ -1,0 +1,21 @@
+/* Smooth transitions */
+a, button {
+  transition: all 0.3s ease;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  footer {
+    --tw-gradient-from: #111827;
+    --tw-gradient-to: #1f2937;
+  }
+}
+
+/* Social icons hover effects */
+.fab {
+  transition: transform 0.2s ease;
+}
+
+.fab:hover {
+  transform: translateY(-2px);
+}

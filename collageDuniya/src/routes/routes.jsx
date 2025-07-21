@@ -2,6 +2,7 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import MainLayout from '../layouts/MainLayout';
 import PagesOne from '../pages/PageOne';
+//import PagesTwo from '../pages/PageTwo';
 
 const routes = [
   {
@@ -17,9 +18,16 @@ const routes = [
   {
     path: '*',
     element: <PagesOne/>,
-    layout: MainLayout,
-    
-  }
+    layout: MainLayout,    
+  },
+  // {
+  //   path:  '/aksh',
+  //   element: <PagesTwo/>,
+  //   layout: MainLayout,
+  // }
+
+  
+
 ];
 
 export default routes;
