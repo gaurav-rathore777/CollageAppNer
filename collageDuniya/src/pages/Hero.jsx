@@ -120,6 +120,11 @@ const Hero = () => {
         </button>
       </div>
     </section>
+    <section className='bg-green-400 h-[50vh] flex justify-center items-center'>
+      <div>
+        <h1>ahsdfiuha</h1>
+      </div>
+    </section>
     </>
 
     
