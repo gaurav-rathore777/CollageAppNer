@@ -1,0 +1,17 @@
+
+.page-two-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.box{
+    
+    
+    background-color: aqua;
+    padding: 20px 30px;
+    gap: 40px;
+
+    
+    
+}

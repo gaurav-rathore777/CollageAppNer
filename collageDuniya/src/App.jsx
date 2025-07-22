@@ -2,6 +2,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import routes from './routes/routes';
 import NotFound from './pages/NotFound';
 // import '@fontsource/poppins';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 const App = () => {
   return (
     <Router>

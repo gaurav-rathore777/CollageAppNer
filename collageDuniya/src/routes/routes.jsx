@@ -2,7 +2,7 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import MainLayout from '../layouts/MainLayout';
 import PagesOne from '../pages/PageOne';
-//import PagesTwo from '../pages/PageTwo';
+import PagesTwo from '../pages/PageTwo';  
 
 const routes = [
   {
@@ -20,11 +20,11 @@ const routes = [
     element: <PagesOne/>,
     layout: MainLayout,    
   },
-  // {
-  //   path:  '/aksh',
-  //   element: <PagesTwo/>,
-  //   layout: MainLayout,
-  // }
+  {
+    path:  '/akash',
+    element: <PagesTwo/>,
+    layout: MainLayout,
+  }
 
   
 

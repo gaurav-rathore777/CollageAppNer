@@ -221,8 +221,8 @@ const PageOne = () => {
 
       {/* Search Section */}
       <section className="py-12 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="text-center mb-8">
+        <div className="max-w-4xl mx-auto px-4 text-center" style={{marginRight: 'auto', marginLeft: 'auto'}}>
+          <div className=" mb-8">
             <h2 className="text-3xl font-bold text-gray-800">Search Our Database</h2>
             <p className="text-gray-600 mt-2">
               Find colleges, courses, and admission information
