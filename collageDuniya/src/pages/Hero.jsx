@@ -37,7 +37,7 @@ const Hero = () => {
   const universities = [
     {
       name: "University of Toronto",
-      originalFee: 885,
+      originalFee: 855,
       discountedFee: 708,
       discount: "20% OFF"
     },
