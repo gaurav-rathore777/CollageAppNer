@@ -1,4 +1,4 @@
-import Hero from '../pages/Hero';
+
 import Navbar from './Navbar';
 
 const Header = () => {
@@ -8,7 +8,7 @@ const Header = () => {
       <h1 className='text-white opacity-17 text-3xl'>CollageDuniya App</h1>
       <Navbar />
     </header>
-      <Hero/>
+      
   </>
   );
 };

@@ -1,16 +1,12 @@
-const Home = () => {
-    return (
-       <div>
-         <div className="h-170 bg-amber-300">
-            <h1>Home</h1>
+import React from 'react'
+import Hero from './Hero'
 
-        </div>
-        <div className="bg-red-200 h-140">
+function Home() {
+  return (
+    <div>
+      <Hero/>
+    </div>
+  )
+}
 
-        </div>
-       </div>
-    )
-  };
-  
-  export default Home;
-  
+export default Home

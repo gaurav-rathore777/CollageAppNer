@@ -158,6 +158,29 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div>
+      <div className="fixed bottom-5 right-5 z-50">
+      <div className="relative">
+        {/* Chat Icon */}
+        <button className="bg-blue-600 hover:bg-blue-700 text-white w-14 h-14 rounded-full shadow-lg flex items-center justify-center">
+          {/* Lightning bolt icon */}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path d="M11.3 1L3 10h5l-1 9 8.3-9H11l1-9z" />
+          </svg>
+        </button>
+
+        {/* Notification Badge */}
+        <span className="absolute -top-1 -right-1 bg-red-600 text-white text-xs font-bold px-2 py-0.5 rounded-full">
+          2
+        </span>
+      </div>
+    </div>
+      </div>
     </footer>
   );
 };
